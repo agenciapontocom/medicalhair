@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<title>{{store_name}}{{#if page_title}} - {{page_title}}{{/if}}</title>
+<meta name="description" content="{{page_description}}"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+
+    <meta name="image:Logo" content=""/>
+    <meta name="if:Exibir banners na home"  content="1"/>
+    <meta name="image:Banner 1 – Imagem"    content="//d3a12l3yff2695.cloudfront.net/frame/banner-light-theme.jpg"/>
+    <meta name="text: Banner 1 – Link"    content="http://"/>
+    <meta name="image:Banner 2 – Imagem"  content=""/>
+    <meta name="text: Banner 2 – Link"    content="http://"/>
+    <meta name="image:Banner 3 – Imagem"  content=""/>
+    <meta name="text: Banner 3 – Link"    content="http://"/>
+    <meta name="if:Exibir destaques na home"  content="1"/>
+    <meta name="image:Categoria 1 – Imagem"   content=""/>
+    <meta name="text: Categoria 1 – Link"    content="http://"/>
+    <meta name="image:Categoria 2 – Imagem"  content=""/>
+    <meta name="text: Categoria 2 – Link"    content="http://"/>
+
+    <meta name="if:Formulário de newsletter"  content="0"/>
+    <meta name="text:Código do Form MailChimp"  content='<help>https://www.minestore.com.br/ajuda/article/como-configurar-o-mailchimp-no-tema-frame/</help><title>Clique aqui para mais detalhes sobre como adicionar newsletter na sua loja</title>'/>
+
+    <meta name="if:Exibir banners de pagamento"  content="1"/>
+
+    <meta name="if:Exibir redes sociais"      content="1"/>
+    <meta name="text:Link Facebook Fanpage"   content="https://www.facebook.com/minestorebr"/>
+    <meta name="text:Facebook"                content="http://www.minestore.com.br"/>
+    <meta name="text:Google Plus"             content="http://www.minestore.com.br"/>
+    <meta name="text:Twitter"                 content="http://www.minestore.com.br"/>
+    <meta name="text:Instagram"               content="http://www.minestore.com.br"/>
+    <meta name="text:Flickr"                  content="http://www.minestore.com.br"/>
+    <meta name="text:Pinterest"               content="http://www.minestore.com.br"/>
+    <meta name="text:Tumblr"                  content="http://www.minestore.com.br"/>
+    <meta name="text:Vimeo"                   content="http://www.minestore.com.br"/>
+    <meta name="text:YouTube"                 content="http://www.minestore.com.br"/>
+    <title>{{store_name}}{{#if page_title}} - {{page_title}}{{/if}}</title>
+    <meta name="description" content="{{page_description}}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+    <title>Shop Page</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css' rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600" rel="stylesheet">
+    <style>
+    .produtos-grid .thumbnail .caption .comprar {
+      display:table!important;margin:11px auto!important;
+    }
+    .produtos-grid .thumbnail .caption h4{text-align:center;}
+    .produtos-grid .thumbnail .caption .price{text-align:center;}
+    .thumbnail img{margin: 1.5em auto;}
+    .modal-body img{width: 250px!important;display:table;margin:0 auto!important;}.product-thumbnails {display: table; margin: 0 auto; margin-bottom: 1em;}.product-thumbnails a {width: auto!important;height: auto;margin: 1em 0 0 0.5em;border: 1px solid #dbdbdb;}.product-thumbnails a:first-child{margin-left:0;}.product-thumbnails a img {width: 100%;height:auto;max-width:100px;padding: 0 2em;}.image_container{border: 1px solid #dbdbdb;}.image_container a{display:table;margin:0 auto;padding: 2em 0;}.image_container a img{width: 150px;}
+
+.slide-image{width:100%}.carousel-holder{margin-bottom:20px}.carousel-control,.item{border-radius:4px}.thumbnail img{width:100%}.ratings{padding-right:10px;padding-left:10px;color:#d17581}input{outline:none}body{font-family:'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-weight:300;font-size:16px}b,strong{font-weight:600}.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{font-weight:400}h3>span{font-weight:300}a{color:#f27c53;border-bottom:1px solid transparent;-webkit-transition:color 0.2s,border-bottom 0.2s;-moz-transition:color 0.2s,border-bottom 0.2s;transition:color 0.2s,border-bottom 0.2s}a:focus,a:hover{color:#f27c53;text-decoration:none;border-bottom:1px solid #f27c53}.topbar2 a:focus,.topbar2 a:hover{border-bottom:none}.carousel-control.left,.carousel-control.right{background-image:none}.carousel-control.left:focus,.carousel-control.left:hover,.carousel-control.right:focus,.carousel-control.right:hover{border-bottom:none}.col{padding-top:6px;padding-bottom:6px}.navbar{margin-bottom:0}.navbar-inverse{background:#1f9da4 url(https://i.imgsafe.org/3eea5dcc13.png);border-color:#1f9da4}.navbar-inverse .navbar-nav>li>a{color:#fff;text-transform:uppercase;border-bottom:none}.navbar-inverse .navbar-nav>li>a:hover{color:#ccc}.nav>li>a{font-size:14px}.topbar1,.topbar2{font-size:10px}.topbar1{background:#f0f0f0}.topbar1 .list-inline>li>a{color:#000}.topbar1 .list-inline>li>a span{color:#1f9da4}.topbar1 ul{text-align:right;margin-bottom:0}.topbar2 .input-group{margin:33px 0}.topbar2 .input-group input{text-transform:uppercase;font-size:13px}.main-logo{display:inline-block;margin:0;border-bottom:0}.main-logo:hover{border-bottom:0}.main-logo img{width:138px;height:auto;margin-top:9px}a#sacola{color:#bbb;text-transform:uppercase;width:150px;position:absolute;top:-5px;right:15px;padding:50px 0;background:url(http://oi66.tinypic.com/2qsz0c9.jpg) no-repeat 48px 11px;border-bottom:none;transition:none}a#sacola h5{margin-left:25px}a#sacola span{font-size:44px;color:#1f9da4;position:absolute;top:27px;right:3px;z-index:1}a#sacola div{position:absolute;top:40px;right:18px;font-size:22px;color:#1f9da4;z-index:10}.form-control,.topbar2 input,.shipping-field input,.navbar-collapse input{height:auto;padding:10px 14px;font-size:14px;vertical-align:middle;color:#555;background-color:#fff;border:1px solid #f27c53;border-radius:0;-webkit-box-shadow:none;box-shadow:none;-webkit-transition-property:background-color;-moz-transition-property:background-color;transition-property:background-color;-webkit-transition-duration:0.15s;-moz-transition-duration:0.15s;transition-duration:0.15s}.form-control:hover,.topbar2 input:hover,.shipping-field input:hover,.navbar-collapse input:hover{background-color:#fcded3}.topbar2 input[type=text]{width:140px}.topbar2 input[type=submit],.shipping-field button,div.submit input,.navbar-collapse input[type=submit]{display:inline-block;padding:9px 16px;margin-bottom:0;font-size:14px;font-weight:normal;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent;border-radius:0;background-color:#f27c53;border-color:#f27c53;color:#fff;text-transform:uppercase;-webkit-transition:background-color 0.2s;-moz-transition:background-color 0.2s;transition:background-color 0.2s}.topbar2 input[type=submit]:hover,.shipping-field button:hover,div.submit input:hover,.navbar-collapse input[type=submit]:hover{color:#fff;background-color:#ee5824;border-color:#f27c53}.topbar2 input[type=submit]:focus,.shipping-field button:focus,div.submit input:focus,.navbar-collapse input[type=submit]:focus{color:#fff;background-color:#cf4110;border-color:#f27c53}.topbar2 input[type=submit]:active,.shipping-field button:active,div.submit input:active,.navbar-collapse input[type=submit]:active{color:#fff;background-color:#cf4110;border-color:#f27c53}.navbar-collapse .input-group{padding-bottom:20px}.shipping-field{margin:60px 0 20px 0}.shipping-field button{padding:10px 16px}.form-control:focus,.topbar2 input:focus{border-color:#f27c53;-webkit-box-shadow:none;box-shadow:none;background-color:#fbd6ca}select.form-control{font-size:16px;background-color:#fff;border:1px solid #e1e1e1;height:40px;width:136px}.btn{padding:10px 16px;border-radius:0;-webkit-transition:background-color 0.2s;-moz-transition:background-color 0.2s;transition:background-color 0.2s}.btn-group-lg>.btn,.btn-lg{font-size:24px;text-transform:uppercase;padding:10px 28px}.btn-default{color:#333;background-color:#f27c53;border-color:#f27c53;color:#fff}.newsletter-bar .btn-default{color:white;background-color:#1f9da4;border-color:#1f9da4;color:#fff;text-transform:uppercase}.newsletter-bar .btn-default:hover,.newsletter-bar .btn-default:focus{background-color:#23b2b9;color:white}.newsletter-bar .btn-default:active{background-color:#177479;color:white}.mine_add_to_cart_button{color:#cdf3f5;background-color:#1f9da4;border-color:#1f9da4;font-weight:600;font-size:18px;text-transform:uppercase;padding:10px 28px;margin:40px 0;display:inline-block;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent}.mine_add_to_cart_button:hover{background-color:#1b888f}.mine_add_to_cart_button:active,.mine_add_to_cart_button:focus{background-color:#177479}.btn-default:hover{color:#fff;background-color:#ee5824;border-color:#f27c53}.btn-default.focus,.btn-default:focus{color:#fff;background-color:#cf4110;border-color:#f27c53}.btn-default.active,.btn-default:active,.open>.dropdown-toggle.btn-default{color:#fff;background-color:#cf4110;border-color:#f27c53}.btn.active.focus,.btn.active:focus,.btn.focus,.btn:active.focus,.btn:active:focus,.btn:focus,input[type=submit]{outline:none}h3{text-transform:uppercase;font-size:22px;margin-bottom:22px;border-bottom:1px solid #1f9da4;line-height:2}.newsletter-bar{background:#aeaeae;padding:20px 0}.newsletter-bar .form-control{border:0}.newsletter-bar .btn{border:none}.newsletter-bar span{font-size:14px;color:#fff;display:inline-block;vertical-align:bottom;margin-bottom:20px}.menubottom-bar{background:url(https://i.imgsafe.org/45c6c8e2ef.png);color:#8ce4e9;padding:30px 0}.menubottom-bar h4{font-weight:600}.menubottom-bar a{color:#fff}.menubottom-bar .social a{display:inline-block;margin:0 10px 10px 0;transition:none}.menubottom-bar .social a:hover,.menubottom-bar .social a:active,.menubottom-bar .social a:focus{border-bottom:none}.menubottom-bar i{font-size:30px}.social-page{margin:2em 0}.social-page a{transition:none;color:#1f9da4;display:inline-block;margin:0 10px 10px 0}.social-page a:hover,.social-page a:active,.social-page a:focus{border-bottom:none}.social-page i{font-size:40px}.interna article{padding-top:30px;padding-bottom:30px}.interna p{margin:1em 0}.interna .duvidas h2{margin:0}.interna .duvidas p{margin:0 0 2em 0}.not-found{text-align:center;font-size:20px;padding:4em 0}.menubottom-bar ul{line-height:1.7}.pagamentos-bar{padding:30px 0;text-align:center}.pagamentos-bar .img-responsive{display:inline-block}.address{font-size:17px;font-weight:600}footer{text-align:center}.footer1{background:url(https://i.imgsafe.org/45c6c8e2ef.png);color:#fff;font-size:12px;padding:10px 0}.footer2{padding:30px 0;font-size:12px}.img-categoria{margin:24px 0}.produtos-grid .left-nav{padding-bottom:20px;padding-top:45px}.produtos-grid .left-nav .dropdown{display:inline-block}.produtos-grid .left-nav button{text-align:left;color:#1f9da4;font-weight:600;transition:none;background-color:#fff;border-color:#fff;border-bottom:1px solid #e1e1e1;-webkit-transition:background-color 0.25s;-moz-transition:background-color 0.25s;transition:background-color 0.25s}.produtos-grid .left-nav button:hover,.produtos-grid .left-nav button:focus,.produtos-grid .left-nav button:active{background-color:#f7f7f7}.produtos-grid .left-nav ul{margin:0;padding:0}.produtos-grid .left-nav ul li{display:block;margin-bottom:5px}.produtos-grid .left-nav ul li li{margin-bottom:0}.produtos-grid .left-nav ul li.selected li.selected a{color:#1f9da4}.produtos-grid .left-nav ul nav{padding-top:6px}.produtos-grid .left-nav a{color:#1f9da4;border-bottom:1px solid #e1e1e1;display:block;padding:10px;font-weight:600;background-color:transparent;-webkit-transition:background-color 0.25s;-moz-transition:background-color 0.25s;transition:background-color 0.25s}.produtos-grid .left-nav a:hover{background-color:#f7f7f7}.produtos-grid .left-nav ul ul a{border-bottom:1px solid transparent;padding:0 20px;font-weight:300;color:#a6a6a6;font-size:14px;-webkit-transition:color 0.25s;-moz-transition:color 0.25s;transition:color 0.25s}.produtos-grid .left-nav ul ul a:hover{color:#595959}.desk-nav{display:none}.dropdown-menu>li>a{font-weight:600}.produtos-grid{padding-top:40px}.produtos-grid .thumbnail{border:1px solid;border-color:transparent;border-radius:0;padding:24px 24px 0 24px;margin-bottom:40px;-webkit-transition:border-color 0.25s;-moz-transition:border-color 0.25s;transition:border-color 0.25s}.produtos-grid .thumbnail:hover{border-color:#fff}.produtos-grid .thumbnail .caption{line-height:1.4;height:211px;overflow:hidden;font-size:18px;padding:0 9px}.produtos-grid .thumbnail .caption h4{margin:0;max-height:44px;overflow:hidden;line-height:1.2}.produtos-grid .thumbnail .caption a{color:#1f9da4}.produtos-grid .thumbnail .caption .comprar{padding:8px 26px;margin:11px 0;color:#fff;background-color:#343c44;border:none;text-transform:uppercase;font-size:14px;display:inline-block}.produtos-grid .thumbnail .caption .mais-info{padding:6px;margin:14px 0;color:#f06a3b;background-color:transparent;border:1px solid #f06a3b;text-transform:uppercase;text-align:center;font-size:14px;font-weight:600;line-height:1;opacity:.65;-webkit-transition:opacity 0.25s;-moz-transition:opacity 0.25s;transition:opacity 0.25s}.produtos-grid .thumbnail .caption .price{padding-top:10px}.produtos-grid .thumbnail:hover .mais-info{opacity:1}.thumbnail{position:relative}h6.promo-flag{margin:0;text-transform:uppercase;color:#1f9da4;background-color:#f27c53;padding:6px 18px;text-align:center;position:absolute;top:5px;left:5px;border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px}.produtos-grid.home-grid{padding-top:0}.home-grid h3{line-height:1;padding-bottom:14px}div.old-price{font-size:16px;text-decoration:line-through;color:#27c6cf}.produto-desc{padding-top:40px}.produto-desc h5{margin:26px 0 8px 0;text-transform:uppercase}.produto-desc .btn-lg{margin:40px 0}.produto-desc .preco{font-size:20px;margin-bottom:30px}.produto-desc .preco strong{font-size:34px}.banners-home div{padding-top:20px;padding-bottom:20px}.banners-home div a{display:block;text-align:center;border-bottom:none}.banners-home div a img{display:inline-block}.busca-termo{padding:40px 0;font-size:22px;font-weight:600}.busca-termo span{font-weight:300}.table>tbody>tr>td,.table>tbody>tr>th,.table>tfoot>tr>td,.table>tfoot>tr>th,.table>thead>tr>td,.table>thead>tr>th{padding:8px;line-height:1.42857143;vertical-align:middle;border-top:none;border-bottom:1px solid #ddd}td.quantity input{width:50px;font-weight:600;text-align:center}td.title a,td.title a:visited{color:#1f9da4;font-weight:600}div.submit>div{margin-bottom:10px}article h1{font-size:26px;text-transform:uppercase;margin-bottom:22px;border-bottom:1px solid #ccc;line-height:2.5}article h2,article h3{font-size:22px;margin-bottom:4px;margin-top:30px;line-height:1.3;border-bottom:none}form.edit_cart{padding-bottom:20px}select{text-align:left;padding:10px;color:#1f9da4;font-weight:600;transition:none;background-color:#fff;border-color:#fff;border-bottom:1px solid #e1e1e1;-webkit-transition:background-color 0.25s;-moz-transition:background-color 0.25s;transition:background-color 0.25s;border-radius:0}select:hover,select:focus,select:active{background-color:#f7f7f7}.product-thumbnails a{display:inline-block;width:110px;height:auto}.product-thumbnails a img{width:100%;height:auto}.out_of_stock{opacity:.5}.slick-brands{margin:40px 0}.slick-brands .slick-slide{height:90px;text-align:center}.slick-brands .slick-slide:before{content:' ';display:inline-block;vertical-align:middle;height:100%}.slick-brands .slick-slide img{display:inline-block;vertical-align:middle}.slick-prev:before,.slick-next:before{font-family:"fontawesome";color:#1f9da4}.slick-prev:before{content:'\f053'}.slick-next:before{content:'\f054'}.prod-home-slider .slick-next{right:0}.prod-home-slider .slick-prev{left:0;z-index:10}.info-contato{width:100%;text-align:right;font-size:17px;color:#1f9da4}.info-contato strong{color:#000}.vantagens h2{font-weight:normal;color:#1f9da4;font-size:20px;text-align:center}.vantagens h2 em{color:#f27c53}.depoimentos{background:#f0f0f0}.depoimentos h2{color:#1f9da4}.manuscrito{font-family:'Yellowtail', cursive;color:#ff8a00;text-align:center;margin:60px 0 0 0}.subtitle{display:block;text-align:center;margin:0 0 40px 0;color:#1f9da4;font-size:38px;line-height:1.2}.sobre1{background-color:#d5e0e5;padding:20px 0}.sobre2{background-color:#1f9da4;color:#fff;padding:20px 0}p.manuscrito{font-size:30px}a.clique{display:block;color:#1f9da4;font-size:20px;text-align:center;transition:none}a.clique:hover{border-bottom:1px solid transparent}@media (min-width: 768px){.navbar{border-radius:0}.navbar-nav{float:none;text-align:center}.navbar-nav>li{float:none;display:inline-block;vertical-align:top}.nav>li>a{font-size:13px;padding-left:16px;padding-right:16px}.topbar1,.topbar2{font-size:12px}.main-logo img{width:191px;margin-top:4px}.newsletter-bar .form-inline .form-group,.newsletter-bar .form-inline .btn{margin-bottom:15px}.produtos-grid .col-md-3,.produtos-grid .col-sm-4{padding-right:5px;padding-left:5px}.thumbnail .comprar{opacity:0;-webkit-transition:opacity 0.25s;-moz-transition:opacity 0.25s;transition:opacity 0.25s}.thumbnail:hover .comprar{opacity:1}.produtos-grid .left-nav .dropdown{display:block}.produtos-grid .left-nav button{width:100%}.produtos-grid .left-nav button .caret{position:absolute;top:20px;right:8px}.produtos-grid .thumbnail{padding:24px 0 0 0}.topbar2 input[type=text]{width:204px}.modal-dialog{width:740px;margin:30px auto}.desk-nav{display:block}a#sacola{top:3px}.prod-home-slider .slick-next{right:-25px}.prod-home-slider .slick-prev{left:-25px}.sobre1{background:url(https://i.imgsafe.org/e1a110973d.jpg) no-repeat center top;height:492px;font-size:20px;padding-top:100px}.sobre1 p{width:280px}.sobre1 p:first-child{width:360px}.sobre2{background:url(https://i.imgsafe.org/0a348cdeb6.jpg) no-repeat center top;height:857px;font-size:20px;position:relative}.sobre2 p{width:220px;position:absolute;top:510px;left:0}.sobre2 p:first-child{width:376px;position:absolute;top:103px;left:auto;right:0;text-align:right}p.manuscrito{margin:0 auto;width:582px}a.clique{display:block;width:500px;margin:20px auto 80px auto}.qualidade1{background:url(https://i.imgsafe.org/0a34621de9.jpg) no-repeat center top;height:972px;font-size:20px;position:relative;color:#fff;padding:154px 0 0 0;text-align:center}.qualidade1 p{margin:0 auto 30px auto;width:560px}.qualidade2 p{display:block;width:500px;border:4px solid #e1e1e1;margin:0 auto 30px auto;padding:10px;text-align:center}.qualidade3 p{padding:14px 20px;display:block;width:500px;background:#aeaeae;margin:0 auto 60px auto;color:#fff;text-align:justify}.qualidade4{background:url(https://i.imgsafe.org/e8b3ae4098.png) no-repeat center top;height:379px;font-size:34px;position:relative;color:#fff;padding:154px 0 0 0;text-align:center}.qualidade4 p{margin:0 auto 30px auto;width:630px;font-family:'Yellowtail', cursive}.qualidade5{font-size:26px;position:relative;color:#ff8a00;padding:0 0 40px 0;text-align:center}.qualidade5 p{margin:0 auto 30px auto;width:560px;font-weight:600}}@media (min-width: 992px){.topbar1,.topbar2{font-size:14px}.newsletter-bar .form-inline .form-group,.newsletter-bar .form-inline .btn{margin-bottom:0}.topbar2 input[type=text]{width:230px}.modal-dialog{width:800px}img.cartoes{padding:36px 0 0 36px}.nav>li>a{font-size:14px;padding-left:22px;padding-right:22px}.newsletter-bar span{margin-bottom:0}.vantagens h2{font-size:24px}.depoimentos{background:#f0f0f0 url(https://i.imgsafe.org/457cabe056.png) no-repeat 48% 0}.sobre2 p{width:260px;position:absolute;top:510px;left:47px}.sobre2 p:first-child{width:400px;position:absolute;top:103px;left:auto;right:50px;text-align:right}}@media (min-width: 1200px){.topbar2 input[type=text]{width:308px}img.cartoes{padding:36px 0 0 85px}.sobre1 p{width:400px;margin-left:100px}.sobre2 p{width:260px;position:absolute;top:510px;left:157px}.sobre2 p:first-child{width:400px;position:absolute;top:103px;left:auto;right:140px;text-align:right}}
+
+.badge{
+  background:transparent; 
+  padding:0;
+  border: none;
+}
+.badge:hover {
+  border: none;
+  
+}
+    </style>
+</head>
+
+<body>
+    <div class="topbar1">
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-6">
+                    <!--Olá visitante, faça <a href="/clientes/entrar">login</a> ou <a href="#">cadastre-se</a>.-->
+                </div>
+                <div class="col col-xs-6">
+                    <ul class="list-inline">
+                        <!-- <li><a href="#"><span class="glyphicon glyphicon-star" aria-hidden="true"></span> Lista de Desejos</a></li> -->
+                        <li><a href="/contato"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Atendimento</a></li>
+                        <!--<li><a href="/perfil/editar"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Minha Conta</a></li>-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="topbar2">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-4 col-md-3">
+                    <a class="main-logo" href="{{store_url}}"><img src="{{resize_image theme.logo "210x"}}" data-at2x="{{resize_image theme.logo "420x"}}" alt="{{store_name}}"></a>
+                </div>
+
+                <div class="col-xs-8 col-md-9">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-8 col-md-10">
+                            <div class="input-group hidden-xs info-contato">
+
+
+                                <strong>Televendas</strong>: (41) 3343-9548<br>
+                                <strong>Whatsapp</strong>: (41) 99103-9548
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-md-2">
+                          
+                          <a href="{{cart_url}}" id="sacola">
+                               <div>{{cart_count}}</div>
+                           </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="{{#if all_products_page}}selected{{/if}}">
+                        <a href="{{products_url}}">Todos</a>
+                    </li>
+                    {{#each categories}}
+                        <li class="{{#if is_current}}selected{{/if}}">
+                            <a href="{{url}}">{{label}}</a>
+                        </li>
+                    {{/each}}
+                    {{#each pages}}
+<!--                         <li class="{{#if is_current}}selected{{/if}}">
+                            <a href="{{url}}">{{title}}</a>
+                        </li> -->
+                    {{/each}}
+                    <li class="{{#if is_current}}selected{{/if}}">
+                        <a href="/qualidade">Qualidade</a>
+                    </li>
+                </ul>
+                    <div class="input-group hidden-sm hidden-md hidden-lg">
+                        {{{search_form}}}
+                    </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+<!-- ############################################################## HOME -->
+
+  {{#home_page}}
+
+    {{#if theme.exibir_banners_na_home}}
+      <div class="carousel-holder">
+          <div id="carousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                {{#if theme.banner_1_imagem}}
+                  <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                {{/if}}
+                {{#if theme.banner_2_imagem}}
+                  <li data-target="#carousel" data-slide-to="1"></li>
+                {{/if}}
+                {{#if theme.banner_3_imagem}}
+                  <li data-target="#carousel" data-slide-to="2"></li>
+                {{/if}}
+              </ol>
+              <div class="carousel-inner">
+                  <div class="item active">
+                    <a href="{{theme.banner_1_link}}">
+                      <img class="slide-image" src='{{resize_image theme.banner_1_imagem "1300x>"}}'
+                     data-at2x='{{resize_image theme.banner_1_imagem "2600x>"}}'>
+                    </a>
+                  </div>
+                  {{#if theme.banner_2_imagem}}
+                    <div class="item">
+                      <a href="{{theme.banner_2_link}}">
+                        <img class="slide-image" src='{{resize_image theme.banner_2_imagem "1300x>"}}'
+                       data-at2x='{{resize_image theme.banner_2_imagem "2600x>"}}'>
+                      </a>
+                    </div>
+                  {{/if}}
+                  {{#if theme.banner_3_imagem}}
+                    <div class="item">
+                      <a href="{{theme.banner_3_link}}">
+                        <img class="slide-image" src='{{resize_image theme.banner_3_imagem "1300x>"}}'
+                       data-at2x='{{resize_image theme.banner_3_imagem "2600x>"}}'>
+                      </a>
+                    </div>
+                  {{/if}}
+              </div>
+              {{#if theme.banner_2_imagem}}
+              <a class="left carousel-control" href="#carousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#carousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+              {{/if}}
+          </div>
+      </div>
+    {{/if}}
+    
+
+    <div class="container">
+        <div class="row vantagens">
+            <div class="col-xs-12 col-md-8 col-md-offset-2">
+                <h2>Compromisso com a saúde dos seus cabelos em uma linha de tratamento capilar desenvolvida por especialistas.</h2>
+            </div>
+        </div>
+    </div>
+
+
+    {{#if theme.exibir_destaques_na_home}}
+        <div class="container">
+          <div class="row banners-home">
+            <div class="col-sm-6">
+              {{#if theme.categoria_1_imagem}}
+                <a href="{{theme.categoria_1_link}}">
+                  <img class="img-responsive" src='{{resize_image theme.categoria_1_imagem}}'
+                 data-at2x='{{resize_image theme.categoria_1_imagem}}'>
+                </a>
+              {{/if}}
+            </div>
+            <div class="col-sm-6">
+              {{#if theme.categoria_2_imagem}}
+                <a href="{{theme.categoria_2_link}}">
+                  <img class="img-responsive" src='{{resize_image theme.categoria_2_imagem}}'
+                 data-at2x='{{resize_image theme.categoria_2_imagem}}'>
+                </a>
+              {{/if}}
+            </div>
+          </div>
+        </div>
+      {{/if}}
+
+<!--       <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+                
+                <div class="slick-brands">
+                  <div><img src="https://i.imgsafe.org/d7cbef18ec.png" alt="logo1"></div>
+                  <div><img src="https://i.imgsafe.org/d7cc021804.png" alt="logo2"></div>
+                  <div><img src="https://i.imgsafe.org/d7cc1f096c.png" alt="logo3"></div>
+                  <div><img src="https://i.imgsafe.org/d7cc109ff2.png" alt="logo4"></div>
+                  <div><img src="https://i.imgsafe.org/d7cc59ccad.png" alt="logo5"></div>
+                  <div><img src="https://i.imgsafe.org/d7cc4e2e5f.png" alt="logo6"></div>
+                  <div><img src="https://i.imgsafe.org/d7cc424800.png" alt="logo7"></div>
+                  <div><img src="https://i.imgsafe.org/d7cc348f17.png" alt="logo8"></div>
+                </div>
+            </div>
+          </div>
+      </div> -->
+
+
+    {{/home_page}}
+
+<!-- ############################################################## HOME END -->
+
+
+
+    {{#list_page}}
+        
+        <div class="container produtos-grid {{#if home_page}}home-grid{{/if}}">
+
+          {{#if home_page}}
+            <!-- <div class="row">
+                <div class="col-xs-12"><h3>Lançamentos e destaques</h3></div>
+            </div> -->
+          {{/if}}
+
+            <div class="row">
+              
+
+            {{#unless home_page}}
+              <div class="col-sm-3 left-nav">
+                  
+                <nav class="main_navigation hidden-sm hidden-md hidden-lg {{#each categories}}{{#if is_current}}{{#if has_children}}has_subnavigation{{#each children}}{{#if is_current}} child_active{{/if}}{{/each}}{{/if}}{{/if}}{{/each}}">
+
+                  <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Categoria
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      {{#each categories}}
+                        <li class="navigation_item {{#if is_current}}selected{{/if}} {{#if has_children}}has_children{{/if}}">
+                          <a href="{{url}}">{{label}}</a>
+                          {{#if has_children}}
+                            <nav class="sub_navigation">
+                              <ul>
+                                <li class="{{#if is_current}}selected{{/if}}">
+                                  <a href="{{url}}">
+                                    Todos
+                                  </a>
+                                </li>
+                                {{#each children}}
+                                <li {{#if is_current}}class="selected"{{/if}}>
+                                  <a href="{{url}}">
+                                    {{label}}
+                                  </a>
+                                </li>
+                                {{/each}}
+                              </ul>
+                            </nav>
+                          {{/if}}
+                        </li>
+                      {{/each}}
+                    </ul>
+                  </div>        
+                </nav>
+
+
+                <nav class="main_navigation desk-nav {{#each categories}}{{#if is_current}}{{#if has_children}}has_subnavigation{{#each children}}{{#if is_current}} child_active{{/if}}{{/each}}{{/if}}{{/if}}{{/each}}">
+                    <ul>
+                      {{#each categories}}
+                        <li class="navigation_item {{#if is_current}}selected{{/if}} {{#if has_children}}has_children{{/if}}">
+                          <a href="{{url}}">{{label}}</a>
+                          {{#if has_children}}
+                            <nav>
+                              <ul>
+                                <li class="{{#if is_current}}selected{{/if}}">
+                                  <a href="{{url}}">
+                                    Todos
+                                  </a>
+                                </li>
+                                {{#each children}}
+                                <li {{#if is_current}}class="selected"{{/if}}>
+                                  <a href="{{url}}">
+                                    {{label}}
+                                  </a>
+                                </li>
+                                {{/each}}
+                              </ul>
+                            </nav>
+                          {{/if}}
+                        </li>
+                      {{/each}}
+                    </ul>
+                </nav>
+
+              </div>
+
+              {{/unless}}
+
+              {{#if home_page}}
+                <div class="col-sm-12">
+                {{else}}
+                <div class="col-sm-9">
+              {{/if}}
+                
+
+                {{#if all_products_page}}
+                    <h3>Todos os produtos</h3>
+                {{/if}}
+              
+                {{#each categories}}
+                  {{#if is_current}}
+                    <h3>{{label}}</h3>
+                  {{/if}}
+                {{/each}}
+
+                {{#search_page}}
+                  <div class="busca-termo">Resultados para: <span>{{search_term}}</span></div>
+                {{/search_page}}
+
+
+                {{#if home_page}}
+                <div class="prod-home-slider">   
+                {{/if}}
+                {{#each products}}
+
+                        {{#if home_page}}
+                        <div class="{{#if out_of_stock}}out_of_stock{{/if}}">
+                        {{else}}
+                        <div class="col-sm-4 {{#if out_of_stock}}out_of_stock{{/if}}">
+                            {{/if}}
+                            <a class="thumbnail" href="{{url}}">
+                                {{#with primary_image}}
+                                <img src="{{resize_image this "300x"}}" data-at2x="{{resize_image this "600x"}}" alt="{{title}}" alt="">
+                                {{/with}}
+                                <div class="caption {{#if offer_avaliable}}{{#unless out_of_stock}}has-offer{{/unless}}{{/if}}">
+                                    <div class="mais-info">Mais Informações</div>
+                                    <h4>{{title}}</h4>
+                                      
+                                    {{#if in_stock}}
+
+                                    <div class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                                        <div class="old-price {{#unless offer_avaliable}}hide{{/unless}}" itemprop="highPrice">De {{original_price_with_currency}}</div>
+                                        <div>Por <strong>{{price_with_currency}}</strong></div>
+                                    </div>
+
+                                    <div class="comprar">Comprar</span></div>
+                                    {{/if}}
+                                    {{#if out_of_stock}}
+                                    <span class="price out_of_stock">Não disponível</span>
+                                      {{/if}}
+                                </div>
+                            </a>
+                        </div>
+                {{/each}}
+                {{#if home_page}}
+                </div>   
+                {{/if}}
+
+              </div>
+            </div>  
+            {{#if products_empty}}
+              <div class="col-xs-12">
+                <h2 class="not-found-title">Nenhum produto encontrado</h2>
+              </div>
+            {{/if}}  
+            {{{ paginate }}}
+        </div>
+      {{/list_page}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      {{#if home_page}}
+<!--         <div class="depoimentos">
+          <div class="container">
+            <div class="row">
+                  <div class="col-md-6">
+                      <h2>Palavra do especialista</h2>
+                      <p>Leia abaixo o depoimento de quem entende do assunto.</p>
+                      <p>&nbsp;</p>
+                      <img class="img-responsive" src="https://i.imgsafe.org/4545b7763f.png" alt="Depoimento">
+                  </div>
+                  <div class="col-md-6">
+                      <h2>Calvície pode ser resovida</h2>
+                      <p>No último dia 13/12/15, a Dra. Maria Angélica Muricy concedeu uma entrevista ao programa FANTÁSTICO, da Rede GLOBO, explicando a nova técnica FUE para implantes capilares que ela utilizou no cantor sertanejo Luciano, da dupla Zezé de Camargo & Luciano.</p>
+                      <a href="http://globoplay.globo.com/v/4673405/" target="_blank"><img class="img-responsive" src="https://i.imgsafe.org/455b248553.jpg" alt="Video"></a>
+                  </div>    
+            </div>
+          </div>
+        </div> -->
+      {{/if}}
+
+      {{#product_page}}
+        {{#with product}}
+          <div class="container produto-desc" itemscope itemtype="http://schema.org/Product">
+
+            <div class="row">
+              <div class="col-xs-12">
+                {{#each categories}}
+                  {{#if is_current}}
+                    <h3>{{label}}</h3>
+                  {{/if}}
+                {{/each}}
+              </div>
+            </div>
+            <div class="row">
+                
+                
+
+                <div class="col-sm-6 product-images"> 
+                  
+                  <figure class="image_container">
+                    {{#with primary_image}}
+                    <a href="{{url}}">
+                        <img class="img-responsive" itemprop="image" src="{{this}}" alt="{{title}}">
+                    </a>
+                    {{/with}}
+                  </figure>
+
+                  <div class="product-thumbnails hidden-xs" id="product-thumbnails">
+                    {{#each images}}<a href="{{url}}"><img src="{{this}}" alt="{{title}}" class="thumb"></a>{{/each}}
+                  </div>
+
+
+                    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">              
+                          <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-remove"></span><span class="sr-only">Close</span></button>
+                            <img src="" class="imagepreview" style="width: 100%;" >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    
+                </div>
+
+                <div class="col-sm-6">
+                  {{#add_to_cart}}
+                      <h2 itemprop="name">{{title}}</h2>
+
+                      <div class="descricao" itemprop="description">
+                          <p>{{{description}}}</p>
+                      </div>
+                        
+                        <div class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                            <div class="old-price {{#unless offer_avaliable}}hide{{/unless}}" itemprop="highPrice">De {{original_price_with_currency}}</div>
+                            <div class="preco" itemprop="lowPrice">Por <strong>{{price_with_currency}}</strong></div>
+                            {{#if out_of_stock}}
+                              <div class="out_of_stock">
+                                  Este produto não está disponível
+                              </div>
+                            {{/if}}
+                            {{#if out_of_stock}}
+                              <link itemprop="availability" href="http://schema.org/OutOfStock">
+                            {{else}}
+                              <link itemprop="availability" href="http://schema.org/InStock">
+                            {{/if}}
+                        </div>
+
+
+                      {{#if has_multiple_variants}}
+                        <h3>Escolha as variações do produto</h3>
+                        <div class="variations_container">
+                            <!-- <div class="glyphicon glyphicon-chevron-down"> -->
+                                {{variations_select}}
+                            <!-- </div> -->
+                        </div>
+                      {{else}}
+                        {{variations_select}}
+                      {{/if}}
+
+                      {{#add_to_cart_button}}
+                        Adicionar ao carrinho
+                      {{/add_to_cart_button}}
+                      <br style="clear: both;">
+                    {{/add_to_cart}}
+                </div>
+            </div>       
+          </div>
+        {{/with}}
+      {{/product_page}}
+
+      {{#cart_page}}
+        
+        <div class="container">
+          <div class="row">
+              <div class="div-xs-12">
+                <h1>Sua sacola:</h1>
+              </div>
+          </div>
+
+           {{#with cart}}
+              {{#cart_form_tag}}
+                <div class="row">
+                  <div class="col-sm-12">
+                    <table class="table table-responsive">
+                      <tr>
+                        <th></th>
+                        <th></th>
+                        <th>Quantidade</th>
+                        <th>Preço</th>
+                        <th>Subtotal</th>
+                      </tr>
+
+                      {{#each line_items}}
+                        <tr>
+                          <td class="close_container">
+                            {{#remove_line_item_link}}×{{/remove_line_item_link}}
+                          </td>
+                          <td class="title">
+                            {{#with image}}
+                              <img src="{{resize_image this "60x60#"}}" data-at2x="{{resize_image this "120x120#"}}">
+                            {{/with}}
+                            {{#link_to_product}}{{title}}{{/link_to_product}}
+                          </td>
+                          <td class="quantity">{{{quantity_input_field}}}</td>
+                          <td class="unit_price">
+                            {{#if has_discount}}
+                              <div class="price">
+                                <div class="old-price">{{ unit_price_without_discount }}</div>
+                                <div class="price-value">{{ unit_price }}</div>
+                              </div>
+                            {{else}}
+                              <div class="price">
+                                <div class="price-value">{{ unit_price }}</div>
+                              </div>
+                            {{/if}}
+                          </td>
+                          <td class="total_price">{{total_price}}</td>
+                        </tr>
+                      {{/each}}
+                    </table>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6"></div>
+                  <div class="col-sm-6">
+                    <div class="shipping-field">
+                      <h2>Calcular frete</h2>
+                      <p>Digite aqui o seu CEP para calcular o frete</p>
+                    {{ shipping_fields }}
+                    </div>
+
+                    <div class="submit">
+
+                      <div class="subtotal">
+                        <div>Subtotal:</div>
+                        <strong>{{ subtotal_price }}</strong>
+                      </div>
+
+                      {{#if is_shipping_calculated}}
+                        <div class="subtotal">
+                          <div>Frete:</div>
+                          <strong>{{ shipping_price }}</strong>
+                        </div>
+                      {{/if}}
+
+                      {{#if has_discount}}
+                        <div class="discount">
+                          <div>Desconto:</div>
+                          <strong>{{ total_discount_price }} (-)</strong>
+                        </div>
+                      {{/if}}
+                      <div class="total">
+                         <div>Total:</div>
+                        <strong>{{total_price}}</strong>
+                      </div>
+                      {{#submit_cart_form_tag}}{{/submit_cart_form_tag}}
+                    </div>
+                  </div>
+                </div>
+              {{/cart_form_tag}}
+            {{/with}}
+        </div>
+
+      {{/cart_page}}
+    
+        {{#sobre_page}}
+
+              <div class="container interna">
+                <div class="row">
+                    <div class="container">
+                        <div class="col-sm-12">
+                            <h1 class="manuscrito">Sobre a Medical Hair</h1>
+                            <span class="subtitle">Saúde dos cabelos ao<br> alcance de todos</span>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="sobre1">
+                <div class="container">
+                    <div class="col-sm-12">
+                      <p><strong>A Medical Hair foi fundada com o objetivo de resgatar o legado de uma familia que há gerações trabalha com Medicina.</strong></p>
+                      <p>A grande experiência, acumulada em quase 100 anos, resultou para a Medical Hair uma mistura única de conhecimento nas áreas medicinal, cosmética, botânica e farmacêutica ao longo do tempo.</p>
+                    </div>
+                </div>
+              </div>
+              <div class="sobre2">
+                <div class="container">
+                    <div class="col-sm-12">
+                        <p>A Medical Hair tem no seu DNA o compromisso de desenvolver e oferecer produtos de qualidade para os cabelos, baseados na ciência mais avançada e utilizando ingredientes exclusivos e naturais.</p>
+                        <p>Nossos Médicos Especialistas desenvolveram uma linha completa para tratamento de Queda de Cabelos.</p>
+                    </div>
+                </div>
+              </div>
+              <div>
+                <div class="container">
+                    <div class="col-sm-12">
+                        <p class="manuscrito">Os Shampoos, Condicionadores da Medical Hair atendem as mais altas exigências de qualidade e eficiência.</p>
+                        <p><a class="clique" href="http://www.medicalhair.com.br/qualidade">Clique aqui e saiba mais sobre o padrão de qualidade e o nosso compromisso com você.</a></p>
+                    </div>
+                </div>
+              </div>
+        {{/sobre_page}}
+
+         {{#qualidade_page}}
+
+              <div class="container interna">
+                <div class="row">
+                    <div class="container">
+                        <div class="col-sm-12">
+                            <h1 class="manuscrito">Porque Medical Hair?</h1>
+                            <span class="subtitle">Qualidade e compromisso com<br> a saúde dos seus cabelos</span>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="qualidade1">
+                <div class="container">
+                    <div class="col-sm-12">
+                      <p><strong>Cabelos saudáveis e bonitos estão ao alcance de todos, e podem ser conquistados através de cuidados especializados e cosméticos exclusivos.</strong></p>
+                      <p>Nossa equipe de Pesquisadores e Médicos Dermatologistas utiliza ingredientes exclusivos e naturais combinados com a ciência mais avançada.</p>
+                    </div>
+                </div>
+              </div>
+              <div class="qualidade2">
+                <div class="container">
+                    <div class="col-sm-12">
+                      <p>PRODUTOS DESENVOLVIDOS E TESTADOS CONTRA ALERGIAS, ATENDENDO AOS MAIS ALTOS PADRÕES DE QUALIDADE.</p>
+                    </div>
+                </div>
+              </div>
+              <div class="qualidade3">
+                <div class="container">
+                    <div class="col-sm-12">
+                      <p>Nossos estudos e testes buscam garantir para você a melhor experiência no uso de nossos produtos. Caso você tenha qualquer sinal de irritação ou reação indesejada, é importante que você nos avise. Sempre que precisar, entre em contato com a Medical Hair pelo e-mail: <a href="mailto:contato@medicalhair.com.br"></a> contato@medicalhair.com.br</p>
+                    </div>
+                </div>
+              </div>
+              <div class="qualidade4">
+                <div class="container">
+                    <div class="col-sm-12">
+                      <p>Nós da Medical hair acreditamos que a beleza tem que<br> estar ao alcance de todas as pessoas.</p>
+                    </div>
+                </div>
+              </div>
+              <div class="qualidade5">
+                <div class="container">
+                    <div class="col-sm-12">
+                      <p>Descubra a Medical Hair e<br> deixe seus cabelos decidirem!</p>
+                    </div>
+                </div>
+              </div>
+        {{/qualidade_page}}
+        
+
+        {{#termos_de_uso_page}}
+          <div class="container interna">
+            <div class="row">
+              <article class="col-md-8 col-md-offset-2">
+                <h1 class="page-title">Termos de Uso</h1>
+                {{{store_terms}}}
+              </article>
+            </div>
+          </div>
+        {{/termos_de_uso_page}}
+
+        {{#contato_page}}
+           <div class="container interna">
+            <div class="row">
+              <article class="col-md-8 col-md-offset-2">
+                <h1 class="page-title">Entre em contato</h1>
+
+
+
+                    <!--<div class="typeform-widget" data-url="https://renatovertemati.typeform.com/to/IKRdmS" style="width: 100%; height: 500px;"></div><script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id="typef_orm",b="https://s3-eu-west-1.amazonaws.com/share.typeform.com/";if(!gi.call(d,id)){js=ce.call(d,"script");js.id=id;js.src=b+"widget.js";q=gt.call(d,"script")[0];q.parentNode.insertBefore(js,q)}})()</script><div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">powered by <a href="https://www.typeform.com/examples/?utm_campaign=IKRdmS&amp;utm_source=typeform.com-8004163-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=PT" style="color: #999" target="_blank">Typeform</a></div>
+                    </div>-->
+      
+	                <p>Ligue: <strong>(41) 3343-9548</strong><br>
+                    Whatsapp: <strong>(41) 99103-9548</strong></p>                   
+                    <div class="address">
+                        Av Getúlio Vargas, 4089<br>
+                        CEP 80240-041<br>
+                        Curitiba - PR<br>
+						<a href="mailto:contato@cutannea.com.br">contato@cutannea.com.br</a> <br>
+                        <strong>(41) 3343-9548</strong>
+
+                    <!--<h2>Form do Google:</h2>
+
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdxGPj8MO0-dWMRwEnXqHzNbTMRQcR9cUnPuJCZDul3jG65qQ/viewform?embedded=true" width="760" height="1300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>-->
+                
+                    <div class="social-page">
+                      {{#if theme.facebook}}
+                        <a href="{{theme.facebook}}" target="_blank">
+                          <i class="fa fa-facebook-square"></i>
+                        </a>
+                      {{/if}}
+                      {{#if theme.google_plus}}
+                        <a href="{{theme.google_plus}}" target="_blank">
+                          <i class="fa fa-google-plus-square"></i>
+                        </a>
+                      {{/if}}
+                      {{#if theme.twitter}}
+                        <a href="{{theme.twitter}}" target="_blank">
+                          <i class="fa fa-twitter-square"></i>
+                        </a>
+                      {{/if}}
+                      {{#if theme.instagram}}
+                        <a href="{{theme.instagram}}" target="_blank">
+                          <i class="fa fa-instagram"></i>
+                        </a>
+                      {{/if}}
+                      {{#if theme.flickr}}
+                        <a href="{{theme.flickr}}" target="_blank">
+                          <i class="fa fa-flickr"></i>
+                        </a>
+                      {{/if}}
+                      {{#if theme.pinterest}}
+                        <a href="{{theme.pinterest}}" target="_blank">
+                          <i class="fa fa-pinterest-square"></i>
+                        </a>
+                      {{/if}}
+                      {{#if theme.tumblr}}
+                        <a href="{{theme.tumblr}}" target="_blank">
+                          <i class="fa fa-tumblr-square"></i>
+                        </a>
+                      {{/if}}
+                      {{#if theme.vimeo}}
+                        <a href="{{theme.vimeo}}" target="_blank">
+                          <i class="fa fa-vimeo-square"></i>
+                        </a>
+                      {{/if}}
+                      {{#if theme.youtube}}
+                        <a href="{{theme.youtube}}" target="_blank">
+                          <i class="fa fa-youtube"></i>
+                        </a>
+                      {{/if}}
+                    </div>
+              </article>
+            </div>
+          </div>         
+        {{/contato_page}}
+
+        {{#duvidas_page}}
+          <div class="container interna">
+            <div class="row">
+              <article class="col-md-8 col-md-offset-2">
+                <h1 class="page-title">Dúvidas frequentes</h1>
+                <div class="duvidas">
+
+                    <h2>Posso utilizar outros produtos no processo de tratamento?</h2>
+                    <p>Sim. Posso associar nossos produtos a outro tratamento que já esteja fazendo, exemplo: pode usar o Tônico Capilar pela manhã que tem uma boa cosmética e o minoxidil à noite.
+                    </p>
+
+                    <h2>Para que serve o Tônico Capilar e qual o modo de usar?</h2>
+                    <p>O Tônico Capilar auxilia no combate à queda capilar e também auxilia no crescimento e fortalecimento dos fios. Não resseca tanto o cabelo como o minoxidil. Diminui o risco de alergia.</p>
+                    <p>Tempo de resultado: de 2 a 3 meses.<br>Aplicar no couro cabeludo seco usando o bico dosador até que a região fique úmida (2 vezes ao dia).</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        {{/duvidas_page}}
+
+        {{#not_found_page}}
+          <div class="container interna">
+            <div class="row">
+              <article class="col-md-8 col-md-offset-2">
+                <div class="not-found">Página não encontrada</div>
+              </article>
+            </div>
+          </div>
+        {{/not_found_page}}
+
+  {{#if theme.formulario_de_newsletter}}
+    <div class="newsletter-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-7"><img src="https://i.imgsafe.org/ed048dd7b4.png"><br><span>Receba lançamentos e promoções por e-mail em primeira mão.</span></div>
+                <div class="col-sm-6 col-lg-5">
+                    <form class="form-inline" action="{{theme.codigo_do_form_mailchimp}}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="FNAME" id="mce-FNAME" placeholder="Nome">
+                      </div>
+                      <div class="form-group">
+                        <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Email" required>
+                        <div style="position: absolute; left: -5000px;"><input type="text" name="b_bf28193d2cec3d847120e3a73_e49b72ea66" tabindex="-1" value=""></div>
+                      </div>
+                      
+                      <button type="submit" class="btn btn-default" id="mc-embedded-subscribe">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  {{/if}}
+
+
+
+
+
+    <div class="menubottom-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <h4>Atendimento</h4>
+                    <ul class="list-unstyled">
+                        <li>ATENDIMENTO<br>
+                            (41) 3343-9548<br>
+                            Horário de atendimento:<br>
+                            Segunda a sexta das 8h às 14h 
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <h4>Institucional</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="/termos_de_uso">Termos de uso</a></li>
+                        <li><a href="/sobre">Sobre a Empresa</a></li>
+                        <!-- <li><a href="#">Loja</a></li>
+                        <li><a href="#">Como Chegar</a></li>
+                        <li><a href="#">Publicações</a></li>
+                        <li><a href="#">Lista Pronta</a></li> -->
+                        <li><a href="/contato">Fale Conosco</a></li>
+                        <li><a href="/duvidas">Dúvidas</a></li>
+                    </ul>
+                </div>
+                <!--<div class="col-xs-12 col-sm-6 col-md-3">
+                    <h4>Minha Conta</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Editar cadastro</a></li>
+                        <li><a href="#">Meus pedidos</a></li>
+                    </ul>
+                </div>-->
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                {{#if theme.exibir_redes_sociais}}  
+                  <h4>Redes Sociais</h4> 
+                    <div class="social">
+                      {{#if theme.facebook}}
+                        <a href="{{theme.facebook}}" target="_blank">
+                          <i class="fa fa-facebook-square"></i>
+                        </a>
+                      {{/if}}
+                      {{#if theme.google_plus}}
+                        <a href="{{theme.google_plus}}" target="_blank">
+                          <i class="fa fa-google-plus-square"></i>
+                        </a>
+                      {{/if}}
+                      {{#if theme.twitter}}
+                        <a href="{{theme.twitter}}" target="_blank">
+                          <i class="fa fa-twitter-square"></i>
+                        </a>
+                      {{/if}}
+                      {{#if theme.instagram}}
+                        <a href="{{theme.instagram}}" target="_blank">
+                          <i class="fa fa-instagram"></i>
+                        </a>
+                      {{/if}}
+                      {{#if theme.flickr}}
+                        <a href="{{theme.flickr}}" target="_blank">
+                          <i class="fa fa-flickr"></i>
+                        </a>
+                      {{/if}}
+                      {{#if theme.pinterest}}
+                        <a href="{{theme.pinterest}}" target="_blank">
+                          <i class="fa fa-pinterest-square"></i>
+                        </a>
+                      {{/if}}
+                      {{#if theme.tumblr}}
+                        <a href="{{theme.tumblr}}" target="_blank">
+                          <i class="fa fa-tumblr-square"></i>
+                        </a>
+                      {{/if}}
+                      {{#if theme.vimeo}}
+                        <a href="{{theme.vimeo}}" target="_blank">
+                          <i class="fa fa-vimeo-square"></i>
+                        </a>
+                      {{/if}}
+                      {{#if theme.youtube}}
+                        <a href="{{theme.youtube}}" target="_blank">
+                          <i class="fa fa-youtube"></i>
+                        </a>
+                      {{/if}}
+                    </div>
+                  {{/if}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{#if theme.exibir_banners_de_pagamento}}
+      <div class="pagamentos-bar">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xs-12">
+                      <img class="gateway-banner img-responsive" width="350px" src="{{payment_gateway_image_url}}" alt="Formas de pagamento">
+                  </div>
+                  <!-- <div class="col-xs-6">Segurança</div> -->
+              </div>
+          </div>
+      </div>
+    {{/if}}
+
+        <!-- Footer -->
+    <footer>
+
+        <div class="footer1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <span>&copy; 2016. CUTANEA NN, COMERCIO E DISTRIBUICAO LTDA ME - Todos os Direitos Reservados. Av. Pres. Getúlio Vargas, 4089 - Água Verde - Curitiba/PR CNPJ: 05.573.896/0001-11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                         <span>Designed by pontocom digital</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- /.container -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+    <script>
+
+        $(".product-images a").on("click", function(e) {
+          e.preventDefault();
+          $('.imagepreview').attr('src', $(this).find('img').attr('src'));
+          $('#imagemodal').modal('show');
+        });
+
+        $("div.has-offer").prepend( "<h6 class=\"promo-flag\">Promoção</h6>" );
+
+        $(document).ready(function(){
+
+          $('.slick-brands').slick({
+              infinite: true,
+              arrows: false,
+              autoplay: true,
+              autoplaySpeed: 2000,
+              slidesToShow: 5,
+              slidesToScroll: 1,
+              responsive: [
+                {
+                  breakpoint: 1024,
+                  settings: {
+                    slidesToShow: 3
+                  }
+                },
+                {
+                  breakpoint: 768,
+                  settings: {
+                    slidesToShow: 2
+                  }
+                },
+                {
+                  breakpoint: 480,
+                  settings: {
+                    slidesToShow: 1
+                  }
+                }
+              ]
+            });
+            $('.prod-home-slider').slick({
+              infinite: true,
+              arrows: true,
+              autoplay: false,
+              autoplaySpeed: 2000,
+              slidesToShow: 5,
+              slidesToScroll: 5,
+              responsive: [
+                {
+                  breakpoint: 992,
+                  settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                  }
+                },
+                {
+                  breakpoint: 768,
+                  settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                  }
+                },
+                {
+                  breakpoint: 480,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+                }
+              ]
+            });       
+        });
+
+    </script>
+</body>
+</html>
